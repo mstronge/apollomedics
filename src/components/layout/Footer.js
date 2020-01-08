@@ -5,16 +5,18 @@ const Footer = () => (
     <div className="flex -mx-3">
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">About Us</h2>
-        <p className="mt-5">Ridiculus mus mauris vitae ultricies leo integer malesuada nunc.</p>
+        <p className="mt-5">Professional medics for hire in Belfast, Northern Ireland.</p>
+        <p className="mt-5"><a href="mailto:info@apollomedics.co.uk">info@apollomedics.co.uk</a></p>
+
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Important Links</h2>
         <ul className="mt-4 leading-loose">
           <li>
-            <a href="https://codebushi.com">Terms &amp; Conditions</a>
+            <a href="#">Terms &amp; Conditions</a>
           </li>
           <li>
-            <a href="https://codebushi.com">Privacy Policy</a>
+            <a href="#">Privacy Policy</a>
           </li>
         </ul>
       </div>
@@ -22,13 +24,13 @@ const Footer = () => (
         <h2 className="text-lg font-semibold">Social Media</h2>
         <ul className="mt-4 leading-loose">
           <li>
-            <a href="https://dev.to/changoman">Dev.to</a>
+            <a href="#">Facebook</a>
           </li>
           <li>
-            <a href="https://twitter.com/HuntaroSan">Twitter</a>
+            <a href="#">Twitter</a>
           </li>
           <li>
-            <a href="https://github.com/codebushi/gatsby-starter-lander">GitHub</a>
+            <a href="#">Linkedin</a>
           </li>
         </ul>
       </div>

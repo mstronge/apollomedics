@@ -6,9 +6,14 @@ const sizes = {
   xl: `py-5 px-16 text-lg`
 };
 
+const contact = () => {
+  window.location.href = `mailto:info@apollomedics.co.uk`;
+}
+
 const Button = ({ children, className = '', size }) => {
   return (
     <button
+      onClick={contact}
       type="button"
       className={`
         ${sizes[size] || sizes.default}

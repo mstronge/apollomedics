@@ -1,7 +1,6 @@
 {
-  "name": "gatsby-starter-lander",
-  "author": "Hunter Chang",
-  "repository": "https://github.com/codebushi/gatsby-starter-lander",
+  "name": "apollo-medics",
+  "author": "Matt Stronge",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {

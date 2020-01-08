@@ -16,50 +16,43 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Main title of your landing page
+            Medics for hire in Belfast
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Free landing page template to promote your business startup and generate leads for the
-            offered services
+            Professional, qualified and passionate medics for hire at your event anywhere in Northern Ireland.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+            <Button size="lg">Contact us</Button>
           </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
-        </div>
-        <div className="lg:w-1/2">
-          <HeroImage />
+          <p className="mt-4 text-gray-600">We value your privacy</p>
         </div>
       </div>
     </section>
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">What we do best</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
+              <p className="font-semibold text-xl">Sporting events</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                We have expertise and knowledge to help with any sporting event you may have.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
+              <p className="font-semibold text-xl">Gigs and Concerts</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                We have vast experience in attending and managing large gigs and concerts.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
+              <p className="font-semibold text-xl">MMA/Boxing</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+              We also specialise in combat based sports and offer a unique and safe service.
               </p>
             </Card>
           </div>
@@ -70,79 +63,28 @@ export default () => (
       id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Professionally Qualified</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
+            We are recognised and approved by a large number of professional bodies.
           </p>
+          <h3 className="text-3xl font-semibold leading-tight pt-10">
+          Great customer service
+        </h3>
+        <p className="mt-8 text-xl font-light leading-relaxed">
+        We value our customers, our staff, our students and our patients. We also value the reputation for clinical excellence that we have worked so hard to achieve.
+        </p>
         </div>
       }
       secondarySlot={<SvgCharts />}
     />
-    <SplitSection
-      reverseOrder
-      primarySlot={
-        <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
-          </h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    />
-    <SplitSection
-      primarySlot={
-        <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
-          </h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    />
-    <section id="stats" className="py-20 lg:pt-32">
-      <div className="container mx-auto text-center">
-        <LabelText className="text-gray-600">Our customers get results</LabelText>
-        <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="testimonials" className="py-20 lg:py-40">
-      <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
-        <div className="flex flex-col md:flex-row md:-mx-3">
-          {customerData.map(customer => (
-            <div key={customer.customerName} className="flex-1 px-3">
-              <CustomerCard customer={customer} />
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
+      <h3 className="text-5xl font-semibold">Ready to work with us?</h3>
       <p className="mt-8 text-xl font-light">
-        Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
+        We would love to hear from you, and will get back to you as soon as possible.
       </p>
       <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
+        <Button size="xl">Get in touch</Button>
       </p>
     </section>
   </Layout>
